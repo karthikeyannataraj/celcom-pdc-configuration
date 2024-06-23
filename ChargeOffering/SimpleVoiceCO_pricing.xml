@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><pdc:PricingObjectsJXB xmlns:pdc="http://xmlns.oracle.com/communications/platform/model/pricing"><chargeOffering xmlns:pdc="http://xmlns.oracle.com/communications/platform/model/pricing" externalID="b7a9de91-6481-4141-9ce0-979801ab8a0e">
+   <name>SimpleVoiceChargeOffer</name>
+   <description>SimpleVoiceChargeOffer...</description>
+   <internalId>b7a9de91-6481-4141-9ce0-979801ab8a0e</internalId>
+   <pricingProfileName>Product Offering</pricingProfileName>
+   <priceListName>Default</priceListName>
+   <obsolete>false</obsolete>
+   <timeRange>0/inf</timeRange>
+   <productSpecName>TelcoMobile</productSpecName>
+   <offerType>SUBSCRIPTION</offerType>
+   <priority>0</priority>
+   <partial>false</partial>
+   <purchaseMin>-1.0</purchaseMin>
+   <purchaseMax>-1.0</purchaseMax>
+   <ownMin>-1.0</ownMin>
+   <ownMax>-1.0</ownMax>
+   <applicableQuantity>REMAINING</applicableQuantity>
+   <purchaseCycleDOM>0</purchaseCycleDOM>
+   <expiryNotification>true</expiryNotification>
+   <subscriptionDueNotification>true</subscriptionDueNotification>
+   <dateRangeImpactType>EVENT_DATE</dateRangeImpactType>
+   <groupSharingEnabled>false</groupSharingEnabled>
+   <validityRounding>NOT_SET</validityRounding>
+   <chargeEventMap>
+      <eventName>EventBillingProductFeeCycleCycle_forward_monthly</eventName>
+      <validIfCancelled>true</validIfCancelled>
+      <validIfInactive>true</validIfInactive>
+      <validIfSuspendedActive>true</validIfSuspendedActive>
+      <timezoneMode>EVENT</timezoneMode>
+      <minQuantity>0</minQuantity>
+      <minQuantityUnit>NONE</minQuantityUnit>
+      <incrementQuantity>1</incrementQuantity>
+      <incrementQuantityUnit>NONE</incrementQuantityUnit>
+      <roundingMode>NEAREST</roundingMode>
+      <prorateFirst>PRORATE_CHARGE</prorateFirst>
+      <prorateLast>PRORATE_CHARGE</prorateLast>
+      <prorateCycle>PRORATE_CHARGE</prorateCycle>
+      <chargeRatePlanInfo>
+         <targetEngine>RRE</targetEngine>
+      </chargeRatePlanInfo>
+      <chargeRatePlanName>&lt;CHG 062324:053653:746></chargeRatePlanName>
+      <ratePlanIID>433f51c6-fe40-4b1c-99e2-e0b81e4731ee</ratePlanIID>
+   </chargeEventMap>
+   <chargeEventMap>
+      <eventName>EventDelayedSessionTelcoGsmVoice</eventName>
+      <validIfCancelled>true</validIfCancelled>
+      <validIfInactive>true</validIfInactive>
+      <validIfSuspendedActive>true</validIfSuspendedActive>
+      <timezoneMode>EVENT</timezoneMode>
+      <minQuantity>1</minQuantity>
+      <minQuantityUnit>none</minQuantityUnit>
+      <incrementQuantity>1</incrementQuantity>
+      <incrementQuantityUnit>none</incrementQuantityUnit>
+      <roundingMode>NEAREST</roundingMode>
+      <prorateFirst>PRORATE_CHARGE</prorateFirst>
+      <prorateLast>PRORATE_CHARGE</prorateLast>
+      <prorateCycle>PRORATE_CHARGE</prorateCycle>
+      <chargeRatePlanInfo>
+         <targetEngine>ECE</targetEngine>
+      </chargeRatePlanInfo>
+      <chargeRatePlanName>&lt;CHG 062324:053728:478></chargeRatePlanName>
+      <ratePlanIID>854d2d4f-09dc-461e-981f-f0a44a5be29d</ratePlanIID>
+   </chargeEventMap>
+</chargeOffering></pdc:PricingObjectsJXB>
